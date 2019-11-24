@@ -17,4 +17,6 @@ Note that a lot of the shared concepts come right out of DDD, which is beyond th
 
 Other extra examples are :
 https://github.com/abuijze/bootiful-axon
+https://spring.io/blog/2016/10/25/webinar-bootiful-cqrs-with-axon-nov-16
+
 https://github.com/AxonIQ/giftcard-demo
