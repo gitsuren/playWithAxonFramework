@@ -24,3 +24,17 @@ https://spring.io/blog/2016/10/25/webinar-bootiful-cqrs-with-axon-nov-16
 
 https://github.com/AxonIQ/giftcard-demo
 ```
+Axon Server
+We will use Axon Server to be our Event Store and our dedicated command, event and query routing solution.
+
+As an Event Store it gives us the ideal characteristics required when storing events. This article provides background why this is desirable.
+
+As a Message Routing solution it gives us the option to connect several instances together without focusing on configuring things like a RabbitMQ or a Kafka topic to share and dispatch messages.
+
+Axon Server can be downloaded here (https://download.axoniq.io/axonserver/AxonServer.zip). As it is a simple JAR file, the following operation suffices to start it up:
+
+1
+java -jar axonserver.jar
+This will start a single Axon Server instance which is accessible through localhost:8024. The endpoint provides an overview of the connected applications and the messages they can handle, as well as a querying mechanism towards the Event Store contained within Axon Server.
+
+The default configuration of Axon Server together with the axon-spring-boot-starter dependency will ensure our Order service will automatically connect to it.
