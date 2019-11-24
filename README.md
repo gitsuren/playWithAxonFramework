@@ -39,3 +39,7 @@ java -jar axonserver.jar
 This will start a single Axon Server instance which is accessible through localhost:8024. The endpoint provides an overview of the connected applications and the messages they can handle, as well as a querying mechanism towards the Event Store contained within Axon Server.
 
 The default configuration of Axon Server together with the axon-spring-boot-starter dependency will ensure our Order service will automatically connect to it.
+
+![AXON_architecture-overview](AXON_architecture-overview.png)
+
+![axon-architecture-framework-step-by-step](axon-architecture-framework-step-by-step.png)
