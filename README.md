@@ -23,6 +23,7 @@ https://github.com/abuijze/bootiful-axon
 https://spring.io/blog/2016/10/25/webinar-bootiful-cqrs-with-axon-nov-16
 
 https://github.com/AxonIQ/giftcard-demo
+https://github.com/abuijze/bike-rental-demo
 ```
 Axon Server
 We will use Axon Server to be our Event Store and our dedicated command, event and query routing solution.
